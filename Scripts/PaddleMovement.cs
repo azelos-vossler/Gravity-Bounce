@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 
 public class PaddleMovement : MonoBehaviour
@@ -7,29 +6,8 @@ public class PaddleMovement : MonoBehaviour
 
     float timeCounter = 0;
     bool Direction = false;
-    public Text countText;
-    private int count;
-
-    void Start()
-    {
-        count = 0;
-        SetCountText();
-    }
-
-    void OnCollisionEnter2D (Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Ball")
-        {
-            count = count + 1;
-            SetCountText();
-        }
-    }
-
-    private void SetCountText()
-    {
-        countText.text = "Count: " + count.ToString();
-    }
-    void Update()
+    
+   void Update()
     {
 
         if (Input.GetKeyDown(KeyCode.LeftArrow))

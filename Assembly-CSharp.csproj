@@ -66,6 +66,9 @@
     <Compile Include="Assets\Scripts\OtherPaddleMovement.cs" />
     <Compile Include="Assets\Scripts\PaddleMovement.cs" />
     <Compile Include="Assets\Scripts\ScoreKeeper.cs" />
+    <Compile Include="Assets\Scripts\ToHowtoPlayScene.cs" />
+    <Compile Include="Assets\Scripts\ToPlayScene.cs" />
+    <Compile Include="Assets\Scripts\ToStartScene.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Spider/Desktop/Game 417/Gravity Bounce/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
