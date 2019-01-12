@@ -6,7 +6,7 @@ public class ScoreKeeper : MonoBehaviour
 {
 
     public Text countText;
-    private int count;
+    static public int count;
 
     // Use this for initialization
     void Start()
@@ -24,8 +24,9 @@ public class ScoreKeeper : MonoBehaviour
         }
     }
 
-    private void SetCountText()
+    public void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
     }
+
 }
