@@ -11,7 +11,7 @@ public class PaddleReduction : MonoBehaviour
     {
       if (other.gameObject.tag == "Ball")
       {
-        transform.localScale -= new Vector3(.05f, 0, 0);
+        transform.localScale -= new Vector3(.01f, 0, 0);
        
       }
          

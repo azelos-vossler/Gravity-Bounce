@@ -7,6 +7,7 @@ public class ScoreKeeper : MonoBehaviour
 
     public Text countText;
     static public int count;
+    
 
     // Use this for initialization
     void Start()
